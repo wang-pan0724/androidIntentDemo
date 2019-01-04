@@ -20,9 +20,7 @@ public class FirstActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Toast.makeText(FirstActivity.this,"You Touch Me！ Say Sorry！",Toast.LENGTH_SHORT).show();
-
-                Intent intent = new Intent(FirstActivity.this,SecondActivity.class);
+                Intent intent = new Intent(FirstActivity.this,ThirdActivity.class);
                 startActivity(intent);
             }
         });
